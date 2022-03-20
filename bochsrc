@@ -1,0 +1,10 @@
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+megs: 16
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+floppya: 1_44="bin/Image", status=inserted
+boot: a
+log: bin/bochsout.log
+mouse: enabled=1
+private_colormap: enabled=0
+fullscreen: enabled=0
+screenmode: name="sample"
